@@ -23,12 +23,52 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+}
+
+h1 {
+  @apply text-4xl;
+  @apply font-bold;
+  @apply text-gray-900;
+  @apply mb-4;
+}
+
+h2 {
+  @apply text-3xl;
+  @apply font-bold;
+  @apply text-gray-800;
+  @apply mb-3;
+}
+
+h3 {
+  @apply text-2xl;
+  @apply font-semibold;
+  @apply text-gray-700;
+  @apply mb-2;
+}
+
+h4 {
+  @apply text-xl;
+  @apply font-semibold;
+  @apply text-gray-600;
+  @apply mb-1;
+}
+
+h5 {
+  @apply text-lg;
+  @apply font-medium;
+  @apply text-gray-500;
+}
+
+h6 {
+  @apply text-base;
+  @apply font-medium;
+  @apply text-gray-400;
 }
 
 body {

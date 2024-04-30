@@ -10,6 +10,9 @@ export default function Navbar() {
         <Link href={'/contacts'}>
           <li>Contacts</li>
         </Link>
+        <Link href={'/comments'}>
+          <li>Comments</li>
+        </Link>
       </ul>
     </nav>
   );
