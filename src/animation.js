@@ -1,3 +1,12 @@
+export const page = {
+  hidden: {},
+  show: {
+    'background-color': 'var(--bg-new-color)',
+    transition: { duration: 0.75 },
+    ease: 'easeOut',
+  },
+};
+
 export const container = {
   hidden: { opacity: 0 },
   show: {
@@ -5,7 +14,7 @@ export const container = {
     transition: {
       delayChildren: 0.5,
       staggerChildren: 0.2,
-      duration: 2,
+      duration: 0.3,
     },
   },
 };
